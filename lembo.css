@@ -1,0 +1,482 @@
+.head
+{ display: flex;
+    width: 100%;
+    height:96px;
+    background-color:rgb(24,24,24) ;
+    position:fixed;
+    margin-top:-10px ;
+    
+}
+.hlogo{
+ margin-top: 10PX;
+ margin-left: 80PX; 
+ display: flex;
+}
+.MODELS{
+    color: white;
+    font-size: 15px;   
+    font-family: sans-serif;
+    margin-left: 20PX;
+    margin-top: 20px;
+
+}
+.MODELS1{
+    color: white;
+    font-size: 15px;   
+    font-family: sans-serif;
+    margin-left: 140PX;
+    margin-top: 20px;
+}
+.MODELS2{
+    color: white;
+    font-size: 15px;   
+    font-family: sans-serif;
+    margin-left: 20PX;
+    margin-top: 20px;
+}
+.me{
+    width: 26px;
+    height: 1px;
+    margin: 5px;
+    background-color: white;
+    margin-left: 50px;    
+}
+.chaticon{
+    margin-left: 30px;
+    margin-top: 6px;
+}
+.Searchicon{
+    margin-left: 30px;
+    margin-top: 15px;
+    width: 30px;
+    color: aliceblue;
+}
+.menu{
+    margin-top: 20px}
+    .real{
+          position: absolute;  
+         z-index: 0;
+        top: 40px;
+        left: 150px;
+        font-size: 60PX;
+        font-family: sans-serif;
+        color: white;
+        font-weight:30px;
+        animation: pointer 5s;
+    
+               
+    }
+    @keyframes pointer{
+ 0%   {opacity:.1; left: 0px; top: 40px;}
+  25%  { opacity:.4; left: 150px; top: 40px;}
+  50%  { opacity: .8; left: 150px; top: 40px;}
+  75%  { opacity: 1; left: 150px; top: 40px;}
+  100%  {opacity: 8; left: 150px; top: 40px;}
+  }
+  .container{
+      display: flex;
+      max-width: 100%;
+      
+  }
+  
+  .slideimg{
+      max-width: 100%;
+      height: 500px;
+      display: flex; 
+      position: relative;
+           
+   }
+  .poly{
+    clip-path: polygon(48% 0, 100% 0%, 100% 100%, 48% 100%);
+    width: 900px;
+    margin-left: -430px;
+  }
+  .poly1{
+    clip-path: polygon(32% 0, 100% 0, 68% 100%, 0% 100%);
+    margin-left: 80px;
+    margin-left: -350px;
+  }
+  .poly2{
+    clip-path: polygon(32% 0, 100% 0%, 100% 100%, 0% 100%);
+    margin-left: 80px;
+    margin-left: -350px;
+    overflow: hidden;
+  }
+  
+        .blackback{
+            position: absolute;
+            width: 100%;
+            height: 500px;
+            clip-path: polygon(0 0%, 6% 0, 49% 100%, 0% 100%);
+            background-color: black;
+            opacity: .4;
+         }
+        .huracan{
+
+            position: absolute;
+            bottom: 70px;
+            left: 150px;
+            font-size: 60PX;
+            font-family: sans-serif;
+            color: white;
+            }
+            .models3{
+                font-size: larger;
+                color:white;
+                position: absolute;
+                margin-top: 50PX;
+                font-family: sans-serif;
+                font-size: 18px;  
+                margin-left: 160px;                         
+            }
+            .hexabutton{
+                position: absolute;
+                top: 100px;   
+            
+            
+            }
+            .hexa{
+                width: 50px;
+                height: 50px;
+                clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+                cursor: pointer;
+                opacity: 50%;
+                margin-top: 20px;
+                margin-left: 150px;}
+                .hexa1{
+                    width: 50px;
+                    height: 50px;
+                    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+                    cursor: pointer;
+                    opacity: 50%;
+                    margin-top: 20px;
+                    margin-left: 240px;
+                                    }
+                .based{
+                    color: white;
+                    position: absolute;
+                    top: 320px;
+                    left: 150px;
+                    
+                }
+                .based1{
+                    font-family: sans-serif;
+                    size: 500px;
+                    margin-left:3px;
+                }
+                .hexa2{
+                    width: 50px;
+                    height: 50px;
+                    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+                    cursor: pointer;
+                    opacity: 50%;
+                    margin-top: 320px;
+                    margin-left: 150px;
+                                    }
+            .EXPLORE{
+                margin: 0px;
+                color: white;
+                font-size: large;
+                font-family: sans-serif;
+
+            }
+            .ex{ position: absolute;
+                top: 420px;
+                left: 220px;
+            }
+            /* section3 start */
+            
+            .homeaventedor{
+                height:auto;
+                width: 100%; }
+            .home3{position: relative;
+            }
+            .crea{
+                position: absolute;
+                font-family: sans-serif;
+                font-size: 70px;  
+                top: 35px;
+                left: 100px;       
+            }
+            .creat{
+                position: absolute;
+                font-family: sans-serif;
+                font-size: 70px;  
+                top: 110px;
+                left: 100px;       
+            }
+            .config{
+                position: absolute;
+                font-family: sans-serif;
+                font-size: 30px; 
+                top: 9px;
+                left: 100px;    
+                font-weight: lighter;   
+            }
+            .hexa4{
+                width: 50px;
+                height: 50px;
+                clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+                cursor: pointer;
+                opacity: 50%;
+                margin-top: 170px;
+                margin-left: 150px;
+                background-color: rgb(30, 31, 31);
+             }
+             .home3 h3{
+                 position: absolute;
+                 font-family: sans-serif;
+                 top: 350px;
+                 left: 150px;
+             }
+            .ures5{position: absolute;
+                font-family: sans-serif;
+                bottom: 475px;
+                left: 120px;
+                margin: 20px;
+
+            }
+            .smallurus12{
+                position: absolute;
+                font-family: sans-serif;
+                bottom: 475px;
+                left: 240px;
+                margin: 20px;
+            }.smallhuracan{
+                opacity: 50%;
+            }
+            .line{
+                position: absolute;
+                width: 130px;
+                height: 1px;
+                bottom: 90px;
+                left: 130px;
+                background-color: black;
+            }
+            .line1{
+                position: absolute;
+                width: 230px;
+                height: 1px;
+                bottom: 90px;
+                left: 260px;
+                background-color: black;
+                opacity: 30%;
+            }
+  .tyre{ position: relative;
+                width: 100%;
+                height: auto;
+ }
+ .dealer{
+     position: absolute;
+     top: 2019px;
+     left: 120px;
+     font-size: 26px;
+     color: rgb(224, 219, 219);
+     font-family: sans-serif;
+
+ }.country{
+    position: absolute;
+    top: 2070px;
+    left: 120px;
+    font-size: 33px;
+    color:white;
+    font-family: sans-serif; }
+    .country h1{
+        font-weight: 750;
+    }
+
+        .hexa6{
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+            cursor: pointer;
+            opacity: 50%;
+            margin-top: 2200px;
+            margin-left: 150px;
+            background-color: rgb(204,206,207);    
+            }
+            .finalsection{
+                background-color: white;
+                width: 100%;
+                height: 1850px;
+            }
+            .finalsection h3{
+                margin-top: 80px;
+                margin-left: 120px;
+            font-family: sans-serif;
+        font-size: 30px;}
+        .finalsection P{
+           
+ padding-right: 2rem;
+    font-size:120PX;
+    font-weight: bold;
+    font-family: sans-serif;
+    line-height: 0.9;
+    letter-spacing: -0.348rem;
+    margin-left: 120px;
+    color: #202020;
+    margin-top:32px;
+    }
+    .menwithcar{
+        width: 80%;
+        height: auto;
+        margin-left: 130px;
+   margin-top: -30px;
+    }
+    .date{
+        font-family: sans-serif;
+        font-size: large;
+        font-weight: 100;
+        margin-left: 120px;
+        margin-top: 50px;
+    }
+    .date1
+    {
+        font-family: sans-serif;
+        margin-left: 115px;
+    }
+    .readmore{
+        background-color: transparent;
+        width: 180px;
+        height: 50px;
+        margin-left: 250px;
+        margin-top: 20px;
+        
+    }
+ .forbutton{
+    display: flex;
+ }
+ .theshirt{
+    font-size: larger;
+    width: 800px;
+    font-weight: 100;
+    margin-left: 110px;
+    margin-top: 0px;
+    opacity: 60%;
+ }
+ .cover{
+    width: 45%;
+    height: 270px;
+    margin-left: 110px;
+ }
+ .coversito{
+    display: flex;
+    height: auto;
+ }      
+.date3{
+font-family: sans-serif;
+margin-left: 30px;
+font-size: large;
+opacity: 60%;
+
+}  
+.readmore1{
+    background-color: transparent;
+    width: 180px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 20px;}
+    .coversito1{
+        display: flex;
+        height: auto;
+        margin-top: 30px;
+    }      
+    .cover5{
+        width: 45%;
+        height: 270px;
+        margin-left: 110px;
+    }
+    .date6{
+        font-family: sans-serif;
+        margin-left: 30px;
+        font-size: large;
+        opacity: 60%;
+        
+        }
+        .readmore2{
+            background-color: transparent;
+            width: 180px;
+            height: 50px;
+            margin-left: 10px;
+            margin-top: 20px;}
+.SEE{background-color:BLACK;
+    width: 180px;
+    height: 50px;
+    margin-top: 70px;
+    margin-left: 650px;
+    }
+    .SEE h4{
+        color: white;
+        size: 30px;
+    }
+.blacksection{
+    width: 100%;
+    height: 350px;
+    background-color:rgb(24,24,24);
+}
+.blacktop{
+    display: flex;
+    color: white;
+    width: 60%;   
+}
+.blacksp{
+    margin-left: 20px;
+    line-height: 2px;
+    margin-top: 50px;
+    font-family: sans-serif;
+    
+}
+.blacksp1{
+    margin-left: 20px;
+    line-height: 2px;
+    font-family: sans-serif;   
+}
+  .social{
+      position: absolute;
+      right: 100px;
+      top: 4600px;
+      cursor: pointer;
+
+  }  
+.lastparagraph{
+    color: white;
+    font-family: sans-serif;
+    width: 90%;
+    margin-left: 30px;
+    font-size: 17px;
+    opacity: 90%;
+    margin-top: 40px;
+}
+.copyright{
+    color: white;
+    font-family:sans-serif;
+    margin-left: 25px;
+}
+ .allright{
+    color: white;
+    font-family:sans-serif;
+    margin-left: 25px;
+ }
+ .footerdiv{
+     position: fixed;
+     width: 100%;
+     height: 50px;
+    background-color:black;
+    bottom: 0;
+    
+
+ }
+ .footertext{
+     font-family: sans-serif;
+     font-weight: 200;
+     margin-left: 20px;
+     color: white;
+ }
+ .footer123{
+    font-family: sans-serif;
+    font-weight: 200;
+margin-left: 500px;
+color: white;
+
+ }
